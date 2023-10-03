@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="table.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="form.html">Form</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="video.html">Video</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+        </section>
+        <form action="update">
+            <label for="name">Your Name:
+                <input id="name" type="text" placeholder="Your Name">
+            </label>
+            <label for="email"> Your Email:
+                <input type="email" id="email" placeholder="Your Email address">
+            </label>
+            <label for="phone">Your Phone:
+                <input type="phone" placeholder="Phone number"> 
+            </label>
+            <fieldset>
+                <legend>
+                    Pick one Pitha
+                </legend>
+                <label for="Chitoy">
+                    <input type="radio" name="pitha" id="chitoy">Chitoy
+                </label>
+                <label for="Vapa">
+                    <input type="radio" name="pitha" id="Vapa">Vapa
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose one or any of Vorta</legend>
+                <label for="shutki">
+                    <input type="checkbox" name="vorta" id="shutki">Shutki
+                </label>
+                <label for="Chilly">
+                    <input type="checkbox" name="vorta">Chilly
+                </label>
+            </fieldset>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
