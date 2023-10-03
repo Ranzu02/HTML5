@@ -2,7 +2,7 @@ nav > ul {
     display: flex;
 }
 
-nav > ul > li > a {
+nav  ul  li  a {
     text-decoration: none;
     color: black;
 }
@@ -17,3 +17,15 @@ nav li {
     padding: 5px;
 }
 
+/* nested menu style */
+
+nav li .dropdown{
+    display:none;
+    position:absolute;
+    background-color: lightyellow;
+    padding-left: 10px;
+}
+
+nav li:hover > .dropdown{
+    display: block;
+}
